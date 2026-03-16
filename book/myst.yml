@@ -1,0 +1,60 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 8d6282a6-4c6d-4f83-b6c6-ee5a591f8a02
+  title: Solving LinkedIn Minigames with Linear Optimization
+  description: Repository of Jupyter Notebooks presenting examples on how to solve LinkedIn minigames by using Python libraries, such as Pyomo, for mathematical modeling, and NetworkX, for graph modeling.
+  keywords:
+    - LinkedIn Minigames
+    - Linear Optimization
+    - Python
+    - Pyomo
+    - NetworkX
+    - Gurobipy
+  authors:
+    - name: Rodrigo Celso de Lima Porto
+      email: rodrigo.cl.porto@gmail.com
+      corresponding: true
+      github: rodrigo-cl-porto
+      linkedin: https://www.linkedin.com/in/rodrigo-cl-porto
+  github: https://github.com/rodrigo-cl-porto/Solving-LinkedIn-Minigames-with-Linear-Optimization
+  # binder:
+  license: MIT
+  open_access: true
+  toc:
+    - title: Introduction
+      file: intro.md
+    - title: LinkedIn Minigames
+      children:
+      - title: Queens
+        file: notebooks/1-queens.ipynb
+      - title: Tango
+        file: notebooks/2-tango.ipynb
+      - title: Zip
+        file: notebooks/3-zip.ipynb
+      - title: Mini Sudoku
+        file: notebooks/4-mini-sudoku.ipynb
+  abbreviations:
+    BLO: Binary Linear Optimization
+    BLOP: Binary Linear Optimization Problem
+    LO: Linear Optimization
+    LOP: Linear Optimization Problem
+    MZT: Miller-Tucker-Zemlin
+    NLO: Non-Linear Optimization
+    NLOP: Non-Linear Optimization Problem
+  exports:
+    - format: pdf
+      template: lapreprint-typst
+      output: document.pdf
+      # articles: intro.md
+  kernelspec:
+    name: python3
+    display_name: 'Python 3'
+site:
+  template: book-theme
+  nav:
+    - title: Internal page
+      url: /website-metadata
+  options:
+    favicon: favicon.ico
+    logo: site_logo.png
