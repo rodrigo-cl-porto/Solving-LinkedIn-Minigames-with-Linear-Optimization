@@ -1691,8 +1691,8 @@ wheels = [
 ]
 
 [[package]]
-name = "solving-linkedin-minigames-with-linear-optimization"
-version = "0.1.0"
+name = "solving-linkedin-games-by-linear-optimization"
+version = "0.1.1"
 source = { virtual = "." }
 dependencies = [
     { name = "gurobipy" },

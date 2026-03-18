@@ -1,6 +1,6 @@
 [project]
-name = "Solving-LinkedIn-Minigames-with-Linear-Optimization"
-version = "0.1.0"
+name = "Solving-LinkedIn-Games-by-Linear-Optimization"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
