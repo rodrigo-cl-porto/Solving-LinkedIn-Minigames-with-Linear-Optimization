@@ -10,4 +10,5 @@ build-book:
 	jupyter-book build --html
 
 deploy:
+	cd ..
 	jupyter-book init --gh-pages
