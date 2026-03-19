@@ -70,6 +70,7 @@ project:
     MTZ: Miller-Tucker-Zemlin
     NLO: Non-Linear Optimization
     NLOP: Non-Linear Optimization Problem
+    S.t.: Subject to
   kernelspec:
     language: python
     name: python3
@@ -80,9 +81,9 @@ project:
 site:
   template: book-theme
   options:
+    style: ./style.css
     folders: true
-    favicon: ./assets/logo.png
-    logo: ./assets/logo.png
-    logo_dark: ./assets/logo_dark.png
+    favicon: ./assets/logos/logo.svg
+    logo: ./assets/logos/logo.svg
+    logo_dark: ./assets/logos/logo_dark.svg
     logo_text: Solving LinkedIn Games by Linear Optimization
-    outline_maxdepth: 1

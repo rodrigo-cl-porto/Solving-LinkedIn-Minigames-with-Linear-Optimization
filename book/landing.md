@@ -1,5 +1,5 @@
 ---
-title: "Solving Linkedin Games by Linear Optimization"
+title: Solving Linkedin Games by Linear Optimization
 site:
   hide_toc: true
   hide_outline: true
@@ -8,23 +8,26 @@ site:
 
 +++ { "kind": "split-image" }
 
-## Solving Linkedin Games by Linear Optimization
+## Solving LinkedIn Games by Linear Optimization
 
-A public Jupyter book to learn ludically how to apply Linear Optimization with Python to solve Linkedin Games
+A public Jupyter book to learn ludically how to apply Linear Optimization with Python to solve LinkedIn Games
 
 {button}`Let's get it started! <./notebooks/1-queens.ipynb>`
 
-![Solving Linkedin Games by Linear Optimization](./assets/logo.svg)
+:::{image} ./assets/logos/cover.png
+:alt: Solving LinkedIn Games by Linear Optimization
+:class: cover
+:::
 
 +++
 
 ## About this book
 
-This book is a personal project created along 2025 in order to learn how to apply Optimization models with Python libraries like Pyomo and NetworkX.
+This book is a personal project created along 2025 in order to teach how to create and apply optimization models with Python libraries like Pyomo and NetworkX to solve some games available on LinkedIn.
 
 :::{important}
 It'll be assumed that you have familiarity with the following topics:
-- Python
+- Python programming logic
 - Some Python concepts like:
   - Chained and Multiple Assigments
   - Python Comprehensions

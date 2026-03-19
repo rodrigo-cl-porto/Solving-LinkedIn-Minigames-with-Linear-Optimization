@@ -1,3 +1,6 @@
+.PHONY: clean setup start build deploy
+JUPYTER_BOOK = book
+
 clean:
 	deactivate
 	rm -rf .venv
@@ -9,14 +12,17 @@ setup:
 
 start:
 	export NODE_TLS_REJECT_UNAUTHORIZED=0
-	cd book
+	cd $(JUPYTER_BOOK)
 	jupyter-book start
+	cd ..
 
 build:
 	export NODE_TLS_REJECT_UNAUTHORIZED=0
-	cd book
+	cd $(JUPYTER_BOOK)
 	jupyter-book build --html
+	cd ..
 
 deploy:
-	cd ..
+	cd $(JUPYTER_BOOK)
 	jupyter-book init --gh-pages
+	cd ..
